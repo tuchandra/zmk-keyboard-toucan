@@ -23,28 +23,28 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp ESC  &kp Q  &kp W  &kp F  &kp P  &kp G  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &lt 2 MINUS  &to 1  &kp A  &kp R  &kp S  &kp T  &kp D  &kp H  &kp N  &kp E  &kp I  &kp O  &kp SINGLE_QUOTE  &kp TAB  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp ENTER  &kp LEFT_SHIFT  &kp SPACE  &kp LCMD  &kp LCTRL  &kp BACKSPACE  &kp RALT
+&kp ESC  &kp Q  &kp W  &kp F  &kp P  &kp G  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &lt 2 MINUS  &kp LCMD  &kp A  &kp R  &kp S  &kp T  &kp D  &kp H  &kp N  &kp E  &kp I  &kp O  &kp SINGLE_QUOTE  &kp TAB  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp ENTER  &kp LEFT_SHIFT  &kp SPACE  &lt 2 TAB  &lt 1 ENTER  &kp BACKSPACE  &kp RALT
             >;
         };
 
         nav {
             display-name = "NAV";
             bindings = <
-&kp TAB  &none  &none  &kp UP  &none  &none  &none  &kp PAGE_UP  &kp UP  &kp PAGE_DOWN  &none  &kp BSPC  &to 2  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp BSPC  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &kp LSHFT  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+&trans  &trans  &kp PAGE_UP  &kp UP  &kp PAGE_DOWN  &trans  &trans  &kp PAGE_UP  &kp UP  &kp PAGE_DOWN  &trans  &kp BSPC  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &trans  &kp HOME  &trans  &kp END  &trans  &trans  &kp HOME  &trans  &kp END  &trans  &trans  &kp LGUI  &trans  &trans  &trans  &trans  &kp RALT
             >;
         };
 
         sym {
             display-name = "SYM";
             bindings = <
-&kp TAB  &kp BSLH  &kp GRAVE  &kp LS(PIPE)  &kp LS(COLON)  &kp EQUAL  &kp CARET  &kp N7  &kp N8  &kp N9  &none  &kp BSPC  &to 3  &kp LS(LT)  &kp LS(LBRC)  &kp LBKT  &kp LS(LPAR)  &trans  &kp N0  &kp N1  &kp N2  &kp N3  &none  &kp GRAVE  &kp LSHFT  &kp LS(GT)  &kp LS(RBRC)  &kp RBKT  &kp LS(RPAR)  &trans  &kp UNDER  &kp N4  &kp N5  &kp N6  &kp PIPE  &kp TILDE  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+&trans  &kp BSLH  &kp GRAVE  &kp LS(PIPE)  &kp LS(COLON)  &kp EQUAL  &trans  &kp N7  &kp N8  &kp N9  &trans  &studio_unlock  &trans  &kp LS(LT)  &kp LS(LBRC)  &kp LBKT  &kp LS(LPAR)  &kp MINUS  &kp N0  &kp N1  &kp N2  &kp N3  &trans  &trans  &trans  &kp LS(GT)  &kp LS(RBRC)  &kp RBKT  &kp LS(RPAR)  &kp SLASH  &trans  &kp N4  &kp N5  &kp N6  &trans  &trans  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
             >;
         };
 
         adj {
             display-name = "ADJ";
             bindings = <
-&mo TAB  &trans  &kp F7  &kp F8  &kp F9  &kp F12  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &trans  &trans  &kp BSPC  &to 0  &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans  &trans  &trans  &trans  &trans  &trans  &bt LSHFT  &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &mo NAV  &kp SPACE  &kp RET  &mo 2  &kp RALT
+&mo 0  &trans  &kp F7  &kp F8  &kp F9  &kp F12  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &trans  &trans  &kp BSPC  &to 0  &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans  &trans  &trans  &trans  &trans  &trans  &bt LSHFT  &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &mo 1  &kp SPACE  &kp RET  &mo 2  &kp RALT
             >;
         };
 
