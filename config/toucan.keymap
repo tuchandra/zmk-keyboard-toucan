@@ -23,14 +23,14 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp G  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &kp BSPC  &to 1  &kp A  &kp R  &kp S  &kp T  &kp D  &kp H  &kp N  &kp E  &kp I  &kp O  &mo 2  &kp ESC  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp M  &kp COMMA  &kp DOT  &kp SQT  &kp ENTER  &kp LEFT_SHIFT  &kp SPACE  &kp LCMD  &kp LCTRL  &kp BACKSPACE  &kp RALT
+&kp ESC  &kp Q  &kp W  &kp F  &kp P  &kp G  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &lt 2 MINUS  &to 1  &kp A  &kp R  &kp S  &kp T  &kp D  &kp H  &kp N  &kp E  &kp I  &kp O  &kp SINGLE_QUOTE  &kp TAB  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp ENTER  &kp LEFT_SHIFT  &kp SPACE  &kp LCMD  &kp LCTRL  &kp BACKSPACE  &kp RALT
             >;
         };
 
         nav {
             display-name = "NAV";
             bindings = <
-&kp TAB  &none  &none  &kp UP  &none  &none  &none  &none  &kp UP  &none  &none  &kp BSPC  &to 2  &bt BT_SEL 0  &kp LEFT  &kp DOWN  &kp RIGHT  &bt BT_SEL 4  &kp BSPC  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &kp LSHFT  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+&kp TAB  &none  &none  &kp UP  &none  &none  &none  &kp PAGE_UP  &kp UP  &kp PAGE_DOWN  &none  &kp BSPC  &to 2  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp BSPC  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &kp LSHFT  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
             >;
         };
 
