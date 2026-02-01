@@ -12,7 +12,7 @@
 
         tri_layer {
             if-layers = <1 2>;
-            then-layer = <3>;
+            then-layer = <4>;
         };
     };
 
@@ -22,7 +22,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp G  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &lt 2 MINUS  &kp LCMD  &kp A  &kp R  &kp S  &kp T  &kp D  &kp H  &kp N  &kp E  &kp I  &kp O  &lt 1 SINGLE_QUOTE  &kp ESC  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &lt 3 ENTER  &kp LEFT_SHIFT  &kp SPACE  &lt 2 TAB  &lt 1 ENTER  &kp BACKSPACE  &kp RALT
+&kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp G  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &lt 2 MINUS  &kp LCMD  &kp A  &kp R  &kp S  &kp T  &kp D  &kp H  &kp N  &kp E  &kp I  &kp O  &lt 1 SINGLE_QUOTE  &lt 3 ESC  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &lt 4 ENTER  &kp LEFT_SHIFT  &kp SPACE  &lt 2 TAB  &lt 1 ENTER  &kp BACKSPACE  &kp RALT
             >;
         };
 
@@ -36,14 +36,21 @@
         sym {
             display-name = "SYM";
             bindings = <
-&trans  &kp BSLH  &kp GRAVE  &kp LS(PIPE)  &kp LS(COLON)  &kp EQUAL  &trans  &kp N7  &kp N8  &kp N9  &trans  &studio_unlock  &trans  &kp LS(LT)  &kp LS(LBRC)  &kp LBKT  &kp LS(LPAR)  &kp MINUS  &kp N0  &kp N1  &kp N2  &kp N3  &trans  &trans  &trans  &kp LS(GT)  &kp LS(RBRC)  &kp RBKT  &kp LS(RPAR)  &kp SLASH  &trans  &kp N4  &kp N5  &kp N6  &trans  &trans  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+&trans  &kp BSLH  &kp GRAVE  &kp LS(PIPE)  &kp LS(COLON)  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &studio_unlock  &trans  &kp LS(LT)  &kp LS(LBRC)  &kp LBKT  &kp LS(LPAR)  &kp MINUS  &trans  &kp RIGHT_META  &kp RIGHT_ALT  &kp RCTRL  &kp RSHFT  &trans  &trans  &kp LS(GT)  &kp LS(RBRC)  &kp RBKT  &kp LS(RPAR)  &kp SLASH  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
             >;
         };
 
-        adj {
+        num {
+            display-name = "NUM";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &studio_unlock  &trans  &kp LSHFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_META  &trans  &kp N0  &kp N1  &kp N2  &kp N3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &trans  &trans  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+            >;
+        };
+
+        func {
             display-name = "FUNC";
             bindings = <
-&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp C_VOLUME_UP  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F5  &kp F6  &kp F7  &kp F8  &kp C_VOLUME_DOWN  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12  &kp C_MUTE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &trans  &kp C_VOLUME_UP  &trans  &trans  &trans  &trans  &trans  &trans  &kp F5  &kp F6  &kp F7  &kp F8  &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &trans  &trans  &trans  &trans  &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &kp C_MUTE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
