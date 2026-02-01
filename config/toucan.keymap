@@ -4,7 +4,8 @@
 #define BASE 0
 #define NAV  1
 #define SYM  2
-#define ADJ  3
+#define NUM  3
+#define FUNC 4
 
 / {
     conditional_layers {
