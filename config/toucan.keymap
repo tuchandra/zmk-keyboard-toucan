@@ -22,7 +22,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp G  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &lt 2 MINUS  &kp LCMD  &kp A  &kp R  &kp S  &kp T  &kp D  &kp H  &kp N  &kp E  &kp I  &kp O  &lt 1 SINGLE_QUOTE  &lt 3 ESC  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &lt 4 ENTER  &kp LEFT_SHIFT  &kp SPACE  &lt 2 TAB  &lt 1 ENTER  &kp BACKSPACE  &kp RALT
+&kp LEFT_ALT  &kp Q  &kp W  &kp F  &kp P  &kp G  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &lt 1 MINUS  &kp LCMD  &kp A  &kp R  &kp S  &kp T  &kp D  &kp H  &kp N  &kp E  &kp I  &kp O  &lt 2 SINGLE_QUOTE  &lt 3 ESC  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &lt 4 ENTER  &kp LEFT_SHIFT  &kp SPACE  &lt 2 TAB  &lt 4 ENTER  &kp BACKSPACE  &lt 1 ESC
             >;
         };
 
@@ -50,7 +50,7 @@
         func {
             display-name = "FUNC";
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &trans  &kp C_VOLUME_UP  &trans  &trans  &trans  &trans  &trans  &trans  &kp F5  &kp F6  &kp F7  &kp F8  &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &trans  &trans  &trans  &trans  &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &kp C_MUTE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp C_REWIND  &kp C_VOLUME_UP  &trans  &trans  &trans  &trans  &trans  &trans  &kp F5  &kp F6  &kp F7  &kp F8  &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &trans  &trans  &trans  &trans  &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12  &kp C_FAST_FORWARD  &kp C_MUTE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
