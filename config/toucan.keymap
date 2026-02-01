@@ -36,7 +36,7 @@
         sym {
             display-name = "SYM";
             bindings = <
-&trans  &kp BSLH  &kp GRAVE  &kp LS(PIPE)  &kp LS(COLON)  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &studio_unlock  &trans  &kp LS(LT)  &kp LS(LBRC)  &kp LBKT  &kp LS(LPAR)  &kp MINUS  &trans  &kp RIGHT_META  &kp RIGHT_ALT  &kp RCTRL  &kp RSHFT  &trans  &trans  &kp LS(GT)  &kp LS(RBRC)  &kp RBKT  &kp LS(RPAR)  &kp SLASH  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+&trans  &kp BSLH  &kp GRAVE  &kp LS(PIPE)  &kp LS(COLON)  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &studio_unlock  &trans  &kp LS(LT)  &kp LS(LBRC)  &kp LBKT  &kp LS(LPAR)  &kp UNDERSCORE  &trans  &kp RIGHT_META  &kp RIGHT_ALT  &kp RCTRL  &kp RSHFT  &trans  &trans  &kp LS(GT)  &kp LS(RBRC)  &kp RBKT  &kp LS(RPAR)  &kp HASH  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
             >;
         };
 
