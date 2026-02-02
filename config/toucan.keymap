@@ -1,6 +1,6 @@
 /*
  * Exported from ZMK Studio
- * Date: 2026-02-02T02:49:01.115Z
+ * Date: 2026-02-02T03:15:05.370Z
  * Device: Toucan
  * Version: 1.0.0
  * Layers: 5
@@ -37,11 +37,11 @@
       label = "NAV";
       bindings = <
         &trans &trans &kp PGUP &kp UP &kp PGDN &trans
-        &trans &kp PGUP &kp UP &kp PGDN &trans &trans
+        &trans &trans &trans &trans &trans &trans
         &trans &trans &kp LEFT &kp DOWN &kp RIGHT &trans
-        &trans &kp LEFT &kp DOWN &kp RIGHT &trans &trans
+        &trans &kp RGUI &kp RALT &kp RCTRL &kp RSHFT &trans
         &trans &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &trans
-        &trans &kp HOME &trans &kp END &trans &trans
+        &trans &trans &trans &trans &trans &trans
         &trans &trans &trans &trans &trans &trans
       >;
     };
