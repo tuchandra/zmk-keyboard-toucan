@@ -55,11 +55,11 @@
       bindings = <
         &kp LGUI &kp Q &kp W &kp F &kp P &kp G
         &kp J &kp L &kp U &kp Y &kp SEMI &lt 3 MINUS
-        &mt LALT TAB &hml LGUI A &hml LALT R &hml LCTRL S &hml LSHFT T &kp D
+        &kp TAB &hml LGUI A &hml LALT R &hml LCTRL S &hml LSHFT T &kp D
         &kp H &hmr RSHFT N &hmr RCTRL E &hmr RALT I &hmr RGUI O &lt 2 SQT
         &lt 3 ESC &kp Z &kp X &kp C &kp V &kp B
         &kp K &kp M &kp COMMA &kp DOT &kp FSLH &lt 4 ENTER
-        &kp LSHFT &kp SPACE &mt LGUI ENTER &kp RCTRL &kp BSPC &mo 1
+        &kp LSHFT &kp SPACE &kp ENTER &kp RCTRL &kp BSPC &mo 1
       >;
     };
 
