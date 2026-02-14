@@ -1,0 +1,80 @@
+# Toucan Layout (2026-02-14)
+
+```
+BASE (0)
+┌──────┬──────┬──────┬──────┬──────┬──────┐   ┌──────┬──────┬──────┬──────┬──────┬──────┐
+│ GUI  │  Q   │  W   │  F   │  P   │  G   │   │  J   │  L   │  U   │  Y   │  ;   │-/FNC│
+├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
+│ TAB  │ A/⌘  │ R/⌥  │ S/⌃  │ T/⇧  │  D   │   │  H   │ N/⇧  │ E/⌃  │ I/⌥  │ O/⌘  │'/SYM│
+├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
+│ESC/FN│  Z   │  X   │  C   │  V   │  B   │   │  K   │  M   │  ,   │  .   │  /   │⏎/NUM│
+└──────┴──────┴──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┴──────┴──────┘
+                     │ LSHFT│SPACE │ENTER │   │ RCTRL│ BSPC │ NAV  │
+                     └──────┴──────┴──────┘   └──────┴──────┴──────┘
+  Homerow mods:  ⌘ ⌥ ⌃ ⇧ (GACS, pinky→index, mirrored)
+
+NAV (1) — held from right thumb
+┌──────┬──────┬──────┬──────┬──────┬──────┐   ┌──────┬──────┬──────┬──────┬──────┬──────┐
+│      │      │ PgUp │  ↑   │ PgDn │      │   │      │⇧⌘2  │⇧⌘3  │⇧⌘4  │      │      │
+├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
+│      │      │  ←   │  ↓   │  →   │      │   │      │ ·⇧·  │ ·⌃·  │ ·⌥·  │ ·⌘·  │      │
+├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
+│      │ ⌘Z  │ ⌘X  │ ⌘C  │ ⌘V  │      │   │      │⌃⌥TAB│⌃⇧TAB│⌃TAB │      │      │
+└──────┴──────┴──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┴──────┴──────┘
+                     │      │      │      │   │      │      │      │
+                     └──────┴──────┴──────┘   └──────┴──────┴──────┘
+  Right home row: &trans (homerow mods pass through from base)
+
+SYM (2) — held from right outer middle (')
+┌──────┬──────┬──────┬──────┬──────┬──────┐   ┌──────┬──────┬──────┬──────┬──────┬──────┐
+│      │  \   │  `   │  |   │  :   │  =   │   │      │      │      │      │      │unlock│
+├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
+│      │  <   │  {   │  [   │  (   │  _   │   │      │ ·⇧·  │ ·⌃·  │ ·⌥·  │ ·⌘·  │      │
+├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
+│      │  >   │  }   │  ]   │  )   │  #   │   │      │      │      │      │      │      │
+└──────┴──────┴──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┴──────┴──────┘
+                     │      │      │      │   │      │      │      │
+                     └──────┴──────┴──────┘   └──────┴──────┴──────┘
+  Right home row: &trans (homerow mods pass through from base)
+
+FUNC (3) — held from top-right (-) or bottom-left (ESC)
+┌──────┬──────┬──────┬──────┬──────┬──────┐   ┌──────┬──────┬──────┬──────┬──────┬──────┐
+│      │  F1  │  F2  │  F3  │  F4  │  ⏪  │   │ Vol+ │      │      │      │      │unlock│
+├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
+│      │  F5  │  F6  │  F7  │  F8  │  ⏯  │   │ Vol- │      │      │      │      │      │
+├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
+│      │  F9  │ F10  │ F11  │ F12  │  ⏩  │   │ Mute │      │      │      │      │      │
+└──────┴──────┴──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┴──────┴──────┘
+                     │      │      │      │   │      │      │      │
+                     └──────┴──────┴──────┘   └──────┴──────┴──────┘
+
+NUM (4) — held from bottom-right (ENTER)
+┌──────┬──────┬──────┬──────┬──────┬──────┐   ┌──────┬──────┬──────┬──────┬──────┬──────┐
+│      │⌥F13 │ F14  │ F15  │ BT1  │      │   │      │  7   │  8   │  9   │      │unlock│
+├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
+│      │ ·⌘·  │ ·⌥·  │ ·⌃·  │ ·⇧·  │      │   │  0   │  1   │  2   │  3   │      │      │
+├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
+│      │      │      │      │      │      │   │      │  4   │  5   │  6   │      │      │
+└──────┴──────┴──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┴──────┴──────┘
+                     │      │      │      │   │      │      │      │
+                     └──────┴──────┴──────┘   └──────┴──────┴──────┘
+  Left home row: &trans (homerow mods pass through from base)
+```
+
+`·⇧·` = homerow mod passthrough via `&trans` from base layer
+
+## Observations
+
+- Thumb row still has LSHFT and RCTRL as dedicated keys — both now available via homerow (T/N for shift, S/E for ctrl). These could be repurposed for layer access.
+- Layer access is scattered: NAV on right thumb, SYM on right outer middle, FUNC on top-right and bottom-left outer, NUM on bottom-right outer.
+- The right hand is mostly empty on SYM, FUNC, and NUM layers.
+- NUM layer access is on the bottom-right outer column (pinky stretch) — inconvenient for frequent use.
+
+## Notes from usage (2026-02-14)
+
+- Tab/enter mistypes were common with the old mod-tap keys (ALT/TAB on left pinky, GUI/ENTER on left thumb). Simplified to plain keys since homerow mods make those mod-taps redundant.
+- Alt+Backspace (hold I, tap Backspace) for word-delete is very convenient. Deleting words is much easier than deleting individual letters; easier to hold I than to move left pinky to backspace.
+- Cmd+Backspace (hold A, tap Backspace) deletes to start of line — same idea.
+- Outer column symbols (`;` `-` `'` `/`) require a lot of pinky movement. Horizontal pinky movement on the right hand (for `'`/SYM) is tolerable, but vertical stretches are not great.
+- NUM layer access via bottom-right pinky is too much pinky movement. Would benefit from a thumb-accessible layer key.
+- Haven't used homerow mods long enough to know if timers need tuning. Failure modes to watch for: random capitals (shift on T/N), Spotlight/app switching (GUI on A/O), menu bar focus (ALT on R/I), swallowed keys.
