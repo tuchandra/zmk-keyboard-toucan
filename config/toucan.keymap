@@ -69,7 +69,7 @@
         &trans &trans &kp PGUP &kp UP &kp PGDN &trans
         &trans &kp LS(LG(N2)) &kp LS(LG(N3)) &kp LS(LG(N4)) &trans &trans
         &trans &trans &kp LEFT &kp DOWN &kp RIGHT &trans
-        &trans &kp RGUI &kp RALT &kp RCTRL &kp RSHFT &trans
+        &trans &trans &trans &trans &trans &trans
         &trans &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &trans
         &trans &kp LC(LA(TAB)) &kp RC(RS(TAB)) &kp RC(TAB) &trans &trans
         &trans &trans &trans &trans &trans &trans
@@ -82,7 +82,7 @@
         &trans &kp BSLH &kp GRAVE &kp LS(BSLH) &kp LS(SEMI) &kp EQUAL
         &trans &trans &trans &trans &trans &studio_unlock
         &trans &kp LS(COMMA) &kp LS(LBKT) &kp LBKT &kp LS(N9) &kp LS(MINUS)
-        &trans &kp RGUI &kp RALT &kp RCTRL &kp RSHFT &trans
+        &trans &trans &trans &trans &trans &trans
         &trans &kp LS(DOT) &kp LS(RBKT) &kp RBKT &kp LS(N0) &kp LS(N3)
         &trans &trans &trans &trans &trans &trans
         &trans &trans &trans &trans &trans &trans
@@ -107,7 +107,7 @@
       bindings = <
         &trans &kp LA(F13) &kp F14 &kp F15 &bt 1 &trans
         &trans &kp N7 &kp N8 &kp N9 &trans &studio_unlock
-        &trans &kp LSHFT &kp LCTRL &kp LALT &kp LGUI &trans
+        &trans &trans &trans &trans &trans &trans
         &kp N0 &kp N1 &kp N2 &kp N3 &trans &trans
         &trans &trans &trans &trans &trans &trans
         &trans &kp N4 &kp N5 &kp N6 &trans &trans
