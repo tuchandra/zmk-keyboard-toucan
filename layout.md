@@ -9,7 +9,7 @@ BASE (0)
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
 │ESC/FN│  Z   │  X   │  C   │  V   │  B   │   │  K   │  M   │  ,   │  .   │  /   │⏎/NUM│
 └──────┴──────┴──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┴──────┴──────┘
-                     │ LSHFT│SPACE │ENTER │   │ NUM  │ BSPC │ NAV  │
+                     │ LSHFT│SPACE │⏎/NUM │   │ NUM  │ BSPC │ NAV  │
                      └──────┴──────┴──────┘   └──────┴──────┴──────┘
   Homerow mods:  ⌘ ⌥ ⌃ ⇧ (GACS, pinky→index, mirrored)
 
@@ -67,7 +67,7 @@ NUM (4) — held from right inner thumb or bottom-right (ENTER)
 
 - LSHFT kept on left thumb — shift is frequent enough to warrant a dedicated key despite being on homerow (T/N). Preserves typing speed for normal sentences.
 - RCTRL replaced with NUM layer on right inner thumb — Ctrl is not frequent enough to need a dedicated key when it's on homerow (S/E).
-- Layer access: NAV and NUM on right thumb, SYM on right outer middle, FUNC on top-right and bottom-left outer. NUM also on bottom-right outer (backup).
+- Layer access: NAV and NUM on right thumb, NUM also on left thumb (layer-tap with Enter, cross-hand for right-hand numbers), SYM on right outer middle, FUNC on top-right and bottom-left outer. NUM also on bottom-right outer (backup).
 - The right hand is mostly empty on SYM, FUNC, and NUM layers.
 - Left outer top (GUI) is still redundant with homerow A/O — could be repurposed.
 

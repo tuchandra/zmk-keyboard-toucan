@@ -59,7 +59,7 @@
         &kp H &hmr RSHFT N &hmr RCTRL E &hmr RALT I &hmr RGUI O &lt 2 SQT
         &lt 3 ESC &kp Z &kp X &kp C &kp V &kp B
         &kp K &kp M &kp COMMA &kp DOT &kp FSLH &lt 4 ENTER
-        &kp LSHFT &kp SPACE &kp ENTER &mo NUM &kp BSPC &mo NAV
+        &kp LSHFT &kp SPACE &lt NUM ENTER &mo NUM &kp BSPC &mo NAV
       >;
     };
 
