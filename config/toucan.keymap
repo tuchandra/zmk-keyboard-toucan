@@ -1,6 +1,6 @@
 /*
  * Exported from ZMK Studio
- * Date: 2026-02-02T03:15:05.370Z
+ * Date: 2026-02-14T18:36:12.906Z
  * Device: Toucan
  * Version: 1.0.0
  * Layers: 5
@@ -23,13 +23,13 @@
     base_layer {
       label = "BASE";
       bindings = <
-        &kp LALT &kp Q &kp W &kp F &kp P &kp G
+        &kp LGUI &kp Q &kp W &kp F &kp P &kp G
         &kp J &kp L &kp U &kp Y &kp SEMI &lt 3 MINUS
-        &kp LGUI &kp A &kp R &kp S &kp T &kp D
+        &mt LALT TAB &kp A &kp R &kp S &kp T &kp D
         &kp H &kp N &kp E &kp I &kp O &lt 2 SQT
         &lt 3 ESC &kp Z &kp X &kp C &kp V &kp B
         &kp K &kp M &kp COMMA &kp DOT &kp FSLH &lt 4 ENTER
-        &kp LSHFT &kp SPACE &mt LGUI ENTER &kp RCTRL &kp BSPC &lt 1 TAB
+        &kp LSHFT &kp SPACE &mt LGUI ENTER &kp RCTRL &kp BSPC &mo 1
       >;
     };
 
@@ -37,11 +37,11 @@
       label = "NAV";
       bindings = <
         &trans &trans &kp PGUP &kp UP &kp PGDN &trans
-        &trans &trans &trans &trans &trans &trans
+        &trans &kp LS(LG(N2)) &kp LS(LG(N3)) &kp LS(LG(N4)) &trans &trans
         &trans &trans &kp LEFT &kp DOWN &kp RIGHT &trans
         &trans &kp RGUI &kp RALT &kp RCTRL &kp RSHFT &trans
         &trans &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &trans
-        &trans &trans &trans &trans &trans &trans
+        &trans &kp LC(LA(TAB)) &kp RC(RS(TAB)) &kp RC(TAB) &trans &trans
         &trans &trans &trans &trans &trans &trans
       >;
     };
@@ -63,7 +63,7 @@
       label = "FUNC";
       bindings = <
         &trans &kp F1 &kp F2 &kp F3 &kp F4 &kp C_RW
-        &kp C_VOL_UP &trans &trans &trans &trans &trans
+        &kp C_VOL_UP &trans &trans &trans &trans &studio_unlock
         &trans &kp F5 &kp F6 &kp F7 &kp F8 &kp C_PP
         &kp C_VOL_DN &trans &trans &trans &trans &trans
         &trans &kp F9 &kp F10 &kp F11 &kp F12 &kp C_FF
@@ -75,7 +75,7 @@
     num_layer {
       label = "NUM";
       bindings = <
-        &trans &kp LA(F13) &kp F14 &kp F15 &kp LC(LS(LA(LG(F)))) &trans
+        &trans &kp LA(F13) &kp F14 &kp F15 &bt 1 &trans
         &trans &kp N7 &kp N8 &kp N9 &trans &studio_unlock
         &trans &kp LSHFT &kp LCTRL &kp LALT &kp LGUI &trans
         &kp N0 &kp N1 &kp N2 &kp N3 &trans &trans
