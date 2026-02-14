@@ -9,7 +9,7 @@ BASE (0)
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
 │ESC/FN│  Z   │  X   │  C   │  V   │  B   │   │  K   │  M   │  ,   │  .   │  /   │⏎/NUM│
 └──────┴──────┴──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┴──────┴──────┘
-                     │ LSHFT│SPACE │ENTER │   │ RCTRL│ BSPC │ NAV  │
+                     │ LSHFT│SPACE │ENTER │   │ NUM  │ BSPC │ NAV  │
                      └──────┴──────┴──────┘   └──────┴──────┴──────┘
   Homerow mods:  ⌘ ⌥ ⌃ ⇧ (GACS, pinky→index, mirrored)
 
@@ -48,7 +48,7 @@ FUNC (3) — held from top-right (-) or bottom-left (ESC)
                      │      │      │      │   │      │      │      │
                      └──────┴──────┴──────┘   └──────┴──────┴──────┘
 
-NUM (4) — held from bottom-right (ENTER)
+NUM (4) — held from right inner thumb or bottom-right (ENTER)
 ┌──────┬──────┬──────┬──────┬──────┬──────┐   ┌──────┬──────┬──────┬──────┬──────┬──────┐
 │      │⌥F13 │ F14  │ F15  │ BT1  │      │   │      │  7   │  8   │  9   │      │unlock│
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
@@ -65,10 +65,11 @@ NUM (4) — held from bottom-right (ENTER)
 
 ## Observations
 
-- Thumb row still has LSHFT and RCTRL as dedicated keys — both now available via homerow (T/N for shift, S/E for ctrl). These could be repurposed for layer access.
-- Layer access is scattered: NAV on right thumb, SYM on right outer middle, FUNC on top-right and bottom-left outer, NUM on bottom-right outer.
+- LSHFT kept on left thumb — shift is frequent enough to warrant a dedicated key despite being on homerow (T/N). Preserves typing speed for normal sentences.
+- RCTRL replaced with NUM layer on right inner thumb — Ctrl is not frequent enough to need a dedicated key when it's on homerow (S/E).
+- Layer access: NAV and NUM on right thumb, SYM on right outer middle, FUNC on top-right and bottom-left outer. NUM also on bottom-right outer (backup).
 - The right hand is mostly empty on SYM, FUNC, and NUM layers.
-- NUM layer access is on the bottom-right outer column (pinky stretch) — inconvenient for frequent use.
+- Left outer top (GUI) is still redundant with homerow A/O — could be repurposed.
 
 ## Notes from usage (2026-02-14)
 
@@ -76,5 +77,5 @@ NUM (4) — held from bottom-right (ENTER)
 - Alt+Backspace (hold I, tap Backspace) for word-delete is very convenient. Deleting words is much easier than deleting individual letters; easier to hold I than to move left pinky to backspace.
 - Cmd+Backspace (hold A, tap Backspace) deletes to start of line — same idea.
 - Outer column symbols (`;` `-` `'` `/`) require a lot of pinky movement. Horizontal pinky movement on the right hand (for `'`/SYM) is tolerable, but vertical stretches are not great.
-- NUM layer access via bottom-right pinky is too much pinky movement. Would benefit from a thumb-accessible layer key.
+- NUM layer access via bottom-right pinky was too much pinky movement. Moved to right inner thumb; bottom-right kept as backup.
 - Haven't used homerow mods long enough to know if timers need tuning. Failure modes to watch for: random capitals (shift on T/N), Spotlight/app switching (GUI on A/O), menu bar focus (ALT on R/I), swallowed keys.
