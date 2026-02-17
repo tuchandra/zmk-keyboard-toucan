@@ -15,7 +15,7 @@ BASE (0)
 
 NAV (1) — held from right thumb or left thumb (⏎/NAV)
 ┌──────┬──────┬──────┬──────┬──────┬──────┐   ┌──────┬──────┬──────┬──────┬──────┬──────┐
-│      │      │ PgUp │  ↑   │ PgDn │      │   │      │⇧⌘2  │⇧⌘3  │⇧⌘4  │      │      │
+│      │      │ PgUp │  ↑   │ PgDn │      │   │      │ ⌘⇧  │ ⌃⇧  │ ⌥⇧  │      │      │
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
 │⌘TAB │      │  ←   │  ↓   │  →   │      │   │      │ ·⌘·  │ ·⌃·  │ ·⌥·  │      │      │
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
@@ -24,6 +24,7 @@ NAV (1) — held from right thumb or left thumb (⏎/NAV)
                      │      │      │      │   │      │      │      │
                      └──────┴──────┴──────┘   └──────┴──────┴──────┘
   Right home row: &trans (homerow mods pass through from base)
+  Top row right: MOD+SHIFT macros for use with arrows (e.g., NAV + ⌃⇧ + arrow = CTRL+SHIFT+ARROW)
 
 SYM (2) — held from right pinky (O) or right outer middle (')
 ┌──────┬──────┬──────┬──────┬──────┬──────┐   ┌──────┬──────┬──────┬──────┬──────┬──────┐
@@ -39,7 +40,7 @@ SYM (2) — held from right pinky (O) or right outer middle (')
 
 FUNC (3) — held from top-right (-) or bottom-left (ESC)
 ┌──────┬──────┬──────┬──────┬──────┬──────┐   ┌──────┬──────┬──────┬──────┬──────┬──────┐
-│      │  F1  │  F2  │  F3  │  F4  │  ⏪  │   │ Vol+ │      │      │      │      │unlock│
+│      │  F1  │  F2  │  F3  │  F4  │  ⏪  │   │ Vol+ │⇧⌘2  │⇧⌘3  │⇧⌘4  │      │unlock│
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
 │      │  F5  │  F6  │  F7  │  F8  │  ⏯  │   │ Vol- │      │      │      │      │      │
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
@@ -47,6 +48,7 @@ FUNC (3) — held from top-right (-) or bottom-left (ESC)
 └──────┴──────┴──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┴──────┴──────┘
                      │      │      │      │   │      │      │      │
                      └──────┴──────┴──────┘   └──────┴──────┴──────┘
+  Screenshots: ⇧⌘2 (to clipboard), ⇧⌘3 (full screen), ⇧⌘4 (selection)
 
 NUM (4) — held from left pinky (A), right inner thumb, or bottom-right (ENTER)
 ┌──────┬──────┬──────┬──────┬──────┬──────┐   ┌──────┬──────┬──────┬──────┬──────┬──────┐
@@ -80,3 +82,5 @@ NUM (4) — held from left pinky (A), right inner thumb, or bottom-right (ENTER)
 - NUM layer access via bottom-right pinky was too much pinky movement. Moved to right inner thumb; bottom-right kept as backup. Now also accessible via A (left pinky homerow).
 - O and the quote key (SYM layer access) were being confused, leading to CMD+T (new tab) instead of SYM+T (paren). Fixed by making O a SYM layer-tap — now either key works.
 - SHIFT removed from homerow to reduce misfires. Failure modes to watch for: Spotlight/app switching (CMD on T/N), menu bar focus (ALT on R/I).
+- MOD+SHIFT macros on NAV top row (L/U/Y = ⌘⇧/⌃⇧/⌥⇧) for easier CTRL+SHIFT+ARROW (terminal pane navigation). Hold NAV + hold ⌃⇧ + arrow = 3 keys instead of 4.
+- Screenshots moved from NAV to FUNC layer (same positions: L/U/Y).
