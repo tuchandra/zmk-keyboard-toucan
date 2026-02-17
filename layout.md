@@ -1,23 +1,23 @@
-# Toucan Layout (2026-02-14)
+# Toucan Layout (2026-02-17)
 
 ```
 BASE (0)
 ┌──────┬──────┬──────┬──────┬──────┬──────┐   ┌──────┬──────┬──────┬──────┬──────┬──────┐
 │ GUI  │  Q   │  W   │  F   │  P   │  G   │   │  J   │  L   │  U   │  Y   │  ;   │-/FNC│
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
-│ TAB  │ A/⌘  │ R/⌥  │ S/⌃  │ T/⇧  │  D   │   │  H   │ N/⇧  │ E/⌃  │ I/⌥  │ O/⌘  │'/SYM│
+│ TAB  │A/NUM │ R/⌥  │ S/⌃  │ T/⌘  │  D   │   │  H   │ N/⌘  │ E/⌃  │ I/⌥  │O/SYM │'/SYM│
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
 │ESC/FN│  Z   │  X   │  C   │  V   │  B   │   │  K   │  M   │  ,   │  .   │  /   │⏎/NUM│
 └──────┴──────┴──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┴──────┴──────┘
                      │ LSHFT│SPACE │⏎/NAV │   │ NUM  │ BSPC │ NAV  │
                      └──────┴──────┴──────┘   └──────┴──────┴──────┘
-  Homerow mods:  ⌘ ⌥ ⌃ ⇧ (GACS, pinky→index, mirrored)
+  Homerow mods: ⌥ ⌃ ⌘ (ring→index), pinkies are layer-taps (A/NUM, O/SYM)
 
 NAV (1) — held from right thumb or left thumb (⏎/NAV)
 ┌──────┬──────┬──────┬──────┬──────┬──────┐   ┌──────┬──────┬──────┬──────┬──────┬──────┐
 │      │      │ PgUp │  ↑   │ PgDn │      │   │      │⇧⌘2  │⇧⌘3  │⇧⌘4  │      │      │
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
-│⌘TAB │      │  ←   │  ↓   │  →   │      │   │      │ ·⇧·  │ ·⌃·  │ ·⌥·  │ ·⌘·  │      │
+│⌘TAB │      │  ←   │  ↓   │  →   │      │   │      │ ·⌘·  │ ·⌃·  │ ·⌥·  │      │      │
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
 │      │ ⌘Z  │ ⌘X  │ ⌘C  │ ⌘V  │      │   │      │⌃⌥TAB│⌃⇧TAB│⌃TAB │      │      │
 └──────┴──────┴──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┴──────┴──────┘
@@ -25,11 +25,11 @@ NAV (1) — held from right thumb or left thumb (⏎/NAV)
                      └──────┴──────┴──────┘   └──────┴──────┴──────┘
   Right home row: &trans (homerow mods pass through from base)
 
-SYM (2) — held from right outer middle (')
+SYM (2) — held from right pinky (O) or right outer middle (')
 ┌──────┬──────┬──────┬──────┬──────┬──────┐   ┌──────┬──────┬──────┬──────┬──────┬──────┐
 │      │  \   │  `   │  |   │  :   │  =   │   │      │      │      │      │      │unlock│
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
-│      │  <   │  {   │  [   │  (   │  _   │   │      │ ·⇧·  │ ·⌃·  │ ·⌥·  │ ·⌘·  │      │
+│      │  <   │  {   │  [   │  (   │  _   │   │      │ ·⌘·  │ ·⌃·  │ ·⌥·  │      │      │
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
 │      │  >   │  }   │  ]   │  )   │  #   │   │      │      │      │      │      │      │
 └──────┴──────┴──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┴──────┴──────┘
@@ -48,11 +48,11 @@ FUNC (3) — held from top-right (-) or bottom-left (ESC)
                      │      │      │      │   │      │      │      │
                      └──────┴──────┴──────┘   └──────┴──────┴──────┘
 
-NUM (4) — held from right inner thumb or bottom-right (ENTER)
+NUM (4) — held from left pinky (A), right inner thumb, or bottom-right (ENTER)
 ┌──────┬──────┬──────┬──────┬──────┬──────┐   ┌──────┬──────┬──────┬──────┬──────┬──────┐
 │      │⌥F13 │ F14  │ F15  │ BT1  │      │   │      │  7   │  8   │  9   │      │unlock│
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
-│      │ ·⌘·  │ ·⌥·  │ ·⌃·  │ ·⇧·  │      │   │  0   │  1   │  2   │  3   │      │      │
+│      │      │ ·⌥·  │ ·⌃·  │ ·⌘·  │      │   │  0   │  1   │  2   │  3   │      │      │
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
 │      │      │      │      │      │      │   │      │  4   │  5   │  6   │      │      │
 └──────┴──────┴──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┴──────┴──────┘
@@ -61,21 +61,22 @@ NUM (4) — held from right inner thumb or bottom-right (ENTER)
   Left home row: &trans (homerow mods pass through from base)
 ```
 
-`·⇧·` = homerow mod passthrough via `&trans` from base layer
+`·⌘·` / `·⌃·` / `·⌥·` = homerow mod passthrough via `&trans` from base layer
 
 ## Observations
 
-- LSHFT kept on left thumb — shift is frequent enough to warrant a dedicated key despite being on homerow (T/N). Preserves typing speed for normal sentences.
-- RCTRL replaced with NUM layer on right inner thumb — Ctrl is not frequent enough to need a dedicated key when it's on homerow (S/E).
-- Layer access: NAV on right thumb and left thumb (layer-tap with Enter), NUM on right inner thumb, SYM on right outer middle, FUNC on top-right and bottom-left outer. NUM also on bottom-right outer (backup).
-- The right hand is mostly empty on SYM, FUNC, and NUM layers.
-- Left outer top (GUI) is still redundant with homerow A/O — could be repurposed.
+- SHIFT removed from homerow entirely — it was the most common source of misfires. LSHFT on left thumb is sufficient.
+- Pinky homerow keys (A, O) are now layer-taps instead of mod-taps: A → NUM, O → SYM. This provides redundant layer access and fixes accidental CMD+T when reaching for SYM layer.
+- Remaining homerow mods are ⌥ ⌃ ⌘ on ring/middle/index (R/S/T and I/E/N). CMD on index since it's used most.
+- Layer access: NAV on right thumb and left thumb (layer-tap with Enter), NUM on left pinky (A) or right inner thumb, SYM on right pinky (O) or right outer middle ('). FUNC on top-right and bottom-left outer.
+- Left outer top (GUI) is still redundant with homerow T/N — could be repurposed.
 
-## Notes from usage (2026-02-14)
+## Notes from usage (2026-02-17)
 
 - Tab/enter mistypes were common with the old mod-tap keys (ALT/TAB on left pinky, GUI/ENTER on left thumb). Simplified to plain keys since homerow mods make those mod-taps redundant.
 - Alt+Backspace (hold I, tap Backspace) for word-delete is very convenient. Deleting words is much easier than deleting individual letters; easier to hold I than to move left pinky to backspace.
-- Cmd+Backspace (hold A, tap Backspace) deletes to start of line — same idea.
+- Cmd+Backspace (hold N, tap Backspace) deletes to start of line — same idea. (Previously was A, but A is now NUM layer.)
 - Outer column symbols (`;` `-` `'` `/`) require a lot of pinky movement. Horizontal pinky movement on the right hand (for `'`/SYM) is tolerable, but vertical stretches are not great.
-- NUM layer access via bottom-right pinky was too much pinky movement. Moved to right inner thumb; bottom-right kept as backup.
-- Haven't used homerow mods long enough to know if timers need tuning. Failure modes to watch for: random capitals (shift on T/N), Spotlight/app switching (GUI on A/O), menu bar focus (ALT on R/I), swallowed keys.
+- NUM layer access via bottom-right pinky was too much pinky movement. Moved to right inner thumb; bottom-right kept as backup. Now also accessible via A (left pinky homerow).
+- O and the quote key (SYM layer access) were being confused, leading to CMD+T (new tab) instead of SYM+T (paren). Fixed by making O a SYM layer-tap — now either key works.
+- SHIFT removed from homerow to reduce misfires. Failure modes to watch for: Spotlight/app switching (CMD on T/N), menu bar focus (ALT on R/I).
