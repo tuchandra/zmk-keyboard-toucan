@@ -28,15 +28,15 @@ NAV (1) — held from right thumb or left thumb (⏎/NAV)
 
 SYM (2) — held from right pinky (O) or right outer middle (')
 ┌──────┬──────┬──────┬──────┬──────┬──────┐   ┌──────┬──────┬──────┬──────┬──────┬──────┐
-│      │  \   │  `   │  |   │  :   │  =   │   │      │      │      │      │      │unlock│
+│      │  \   │  `   │  |   │  :   │  =   │   │      │  7   │  8   │  9   │      │unlock│
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
-│      │  <   │  {   │  [   │  (   │  _   │   │      │ ·⌘·  │ ·⌃·  │ ·⌥·  │      │      │
+│      │  <   │  {   │  [   │  (   │  _   │   │  0   │  1   │  2   │  3   │      │      │
 ├──────┼──────┼──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┼──────┼──────┤
-│      │  >   │  }   │  ]   │  )   │  #   │   │      │      │      │      │      │      │
+│      │  >   │  }   │  ]   │  )   │  #   │   │      │  4   │  5   │  6   │      │      │
 └──────┴──────┴──────┼──────┼──────┼──────┤   ├──────┼──────┼──────┼──────┴──────┴──────┘
                      │      │      │      │   │      │      │      │
                      └──────┴──────┴──────┘   └──────┴──────┴──────┘
-  Right home row: &trans (homerow mods pass through from base)
+  Numpad on right hand (same layout as NUM layer) for typing e.g. "(1)" without switching layers
 
 FUNC (3) — held from top-right (-) or bottom-left (ESC)
 ┌──────┬──────┬──────┬──────┬──────┬──────┐   ┌──────┬──────┬──────┬──────┬──────┬──────┐
@@ -84,3 +84,4 @@ NUM (4) — held from left pinky (A), right inner thumb, or bottom-right (ENTER)
 - SHIFT removed from homerow to reduce misfires. Failure modes to watch for: Spotlight/app switching (CMD on T/N), menu bar focus (ALT on R/I).
 - MOD+SHIFT macros on NAV top row (L/U/Y = ⌘⇧/⌃⇧/⌥⇧) for easier CTRL+SHIFT+ARROW (terminal pane navigation). Hold NAV + hold ⌃⇧ + arrow = 3 keys instead of 4.
 - Screenshots moved from NAV to FUNC layer (same positions: L/U/Y).
+- Numpad added to SYM layer right hand — typing `(1)` now requires only holding O, instead of switching between SYM and NUM layers.
