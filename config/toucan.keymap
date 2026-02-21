@@ -113,7 +113,7 @@
         &kp LG(TAB) &trans &kp LEFT &kp DOWN &kp RIGHT &trans
         &trans &trans &trans &trans &trans &trans
         &trans &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &trans
-        &trans &kp LC(LA(TAB)) &kp RC(RS(TAB)) &kp RC(TAB) &trans &trans
+        &trans &kp LC(LA(TAB)) &kp RC(RS(TAB)) &kp RC(TAB) &kp LG(R) &trans
         &trans &trans &trans &trans &trans &trans
       >;
     };
